@@ -28,7 +28,7 @@ error_log
 # Add exceptions for custom themes/plugins you want to track
 /wp-content/plugins/
 /wp-content/themes/
-!/wp-content/themes/apdoson/
+!/wp-content/themes/apdoson
 
 # Ignore language files (usually managed by WordPress core/plugins/themes)
 /wp-content/languages/
