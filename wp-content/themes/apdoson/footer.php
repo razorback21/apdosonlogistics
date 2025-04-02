@@ -18,7 +18,7 @@
             </p>
             <div class="flex space-x-4">
               <a 
-                href="https://facebook.com" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
@@ -29,18 +29,16 @@
                 </svg>
               </a>
               <a 
-                href="https://twitter.com" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
-                aria-label="Twitter"
+                aria-label="Youtube"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
-                </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
               </a>
               <a 
-                href="https://instagram.com" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
@@ -48,17 +46,6 @@
               >
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a6 6 0 016 6v8a6 6 0 01-6 6H8a6 6 0 01-6-6V8a6 6 0 016-6h4m5 9a5 5 0 11-5-5 5 5 0 015 5z" />
-                </svg>
-              </a>
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
-                aria-label="LinkedIn"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.5V8a3 3 0 00-3-3H6a3 3 0 00-3 3v5.5m5 6.5v-6.5m0 0h6.5v6.5m-6.5 0H6" />
                 </svg>
               </a>
             </div>
@@ -165,7 +152,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-logistics-blue mt-0.5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span class="text-gray-600">contact@apdosonlogistics.com.ph</span>
+                <a href="mailto:apdosonphilippines@gmail.com" class="text-gray-600">contact@apdosonlogistics.com.ph</span>
               </li>
               <li class="flex items-start">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-logistics-blue mt-0.5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -191,7 +178,7 @@
       </div>
     </div>
   </footer>
-
+<?php wp_footer(); ?>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Mobile menu toggle
