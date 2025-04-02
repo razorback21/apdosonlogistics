@@ -59,32 +59,21 @@
               Quick Links
             </h3>
             <ul class="space-y-4">
+            <?php 
+            $items = wp_get_nav_menu_items('primary');
+            if ($items): ?>
+                <?php foreach ($items as $item): ?>
+                  <li>
+                    <a href="<?= $item->url;?>" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
+                     <?= $item->title; ?>
+                      <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                  </li>
+                <?php endforeach; ?>
+            <?php endif; ?>
+              
               <li>
-                <a href="index.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
-                  Home
-                  <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
-                </a>
-              </li>
-              <li>
-                <a href="about.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
-                  About Us
-                  <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
-                </a>
-              </li>
-              <li>
-                <a href="services.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
-                  Services
-                  <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
-                </a>
-              </li>
-              <li>
-                <a href="contact.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
-                  Contact
-                  <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
-                </a>
-              </li>
-              <li>
-                <a href="contact.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
+                <a href="/contact" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
                   Get a Quote
                   <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
                 </a>
@@ -101,26 +90,32 @@
             </h3>
             <ul class="space-y-4">
               <li>
-                <a href="services.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
+                <a href="/services" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
                   Land Transportation
                   <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
                 </a>
               </li>
               <li>
-                <a href="services.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
+                <a href="/services" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
                   Sea Freight
                   <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
                 </a>
               </li>
               <li>
-                <a href="services.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
+                <a href="/services" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
                   Air Cargo
                   <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
                 </a>
               </li>
               <li>
-                <a href="services.html" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
-                  Warehousing
+                <a href="/services" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
+                  Customs Clearance
+                  <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/services" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
+                  Hauling
                   <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
                 </a>
               </li>
