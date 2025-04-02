@@ -36,7 +36,7 @@
           <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-100">
             <h3 class="text-xl font-semibold text-logistics-dark mb-2">Sea Freight</h3>
             <p class="text-gray-600">
-              Cost-effective sea freight solutions for international shipping.
+              Cost-effective sea freight solutions for domestic shipping.
             </p>
             <hr class="my-4 bg-gray-200">
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
@@ -46,7 +46,7 @@
 
           <!-- Service Card 3 -->
           <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-200">
-            <h3 class="text-xl font-semibold text-logistics-dark mb-2">Air Cargo</h3>
+            <h3 class="text-xl font-semibold text-logistics-dark mb-2">Air Freight</h3>
             <p class="text-gray-600">
               Fast and secure air cargo services for time-sensitive shipments.
             </p>
@@ -58,9 +58,9 @@
 
           <!-- Service Card 4 -->
           <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element">
-            <h3 class="text-xl font-semibold text-logistics-dark mb-2">Warehousing</h3>
+            <h3 class="text-xl font-semibold text-logistics-dark mb-2">Hauling</h3>
             <p class="text-gray-600">
-              Secure and modern warehousing facilities for your storage needs.
+              Reliable solution for transporting heavy goods with speed and efficiency.
             </p>
             <hr class="my-4 bg-gray-200">
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
@@ -81,7 +81,7 @@
           </div>
 
           <!-- Service Card 6 -->
-          <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-200">
+          <!-- <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-200">
             <h3 class="text-xl font-semibold text-logistics-dark mb-2">Express Delivery</h3>
             <p class="text-gray-600">
               Reliable express delivery services for urgent shipments.
@@ -90,7 +90,7 @@
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
               Learn More
             </button>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

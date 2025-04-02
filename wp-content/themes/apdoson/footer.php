@@ -103,13 +103,13 @@
               </li>
               <li>
                 <a href="/services" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
-                  Air Cargo
+                  Air Freight
                   <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
                 </a>
               </li>
               <li>
                 <a href="/services" class="text-gray-600 hover:text-logistics-blue transition-colors relative group inline-block">
-                  Customs Clearance
+                  Customs Brokerage
                   <span class="absolute left-0 bottom-0 w-0 h-0.5 bg-logistics-blue group-hover:w-full transition-all duration-300"></span>
                 </a>
               </li>
