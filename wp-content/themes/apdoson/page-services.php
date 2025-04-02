@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-<main class="flex-grow">
+<main class="flex-grow pt-10">
     <section class="py-24 px-4" id="services">
       <div class="container mx-auto">
         <div class="text-center max-w-3xl mx-auto mb-16">

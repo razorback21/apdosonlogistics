@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<main class="flex-grow">
+<main class="flex-grow pt-10">
     <!-- Contact Section -->
     <section class="py-24 px-4" id="contact">
       <div class="container mx-auto">
