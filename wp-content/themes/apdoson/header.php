@@ -45,7 +45,7 @@
                     </a>
             <?php endforeach; ?>
         <?php endif; ?>
-        <a href="contact.html" class="bg-logistics-red hover:bg-logistics-red/90 text-white rounded-full px-6 py-2 text-sm font-medium transition-all">Get Quote</a>
+        <a href="/contact" class="bg-logistics-red hover:bg-logistics-red/90 text-white rounded-full px-6 py-2 text-sm font-medium transition-all">Get Quote</a>
       </nav>
       
       <div class="md:hidden flex items-center">
