@@ -43,7 +43,7 @@
                     <a href="<?php echo $item->url;?>" class="text-sm font-medium hover:text-logistics-blue transition-colors">
                         <?php echo strtoupper($item->title); ?>
                     </a>
-            <?php endforeach; ?>
+                <?php endforeach; ?>
         <?php endif; ?>
         <a href="/contact" class="bg-logistics-red hover:bg-logistics-red/90 text-white rounded-full px-6 py-2 text-sm font-medium transition-all">Get Quote</a>
       </nav>
