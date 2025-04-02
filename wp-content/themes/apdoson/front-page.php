@@ -19,7 +19,7 @@
         </h1>
         
         <p class="text-lg sm:text-xl text-white/90 leading-relaxed fade-element fade-delay-200">
-          We provide seamless logistics solutions that help businesses move goods efficiently throughout the Philippines and beyond.
+          We provide seamless logistics solutions that help businesses move goods efficiently throughout the Philippines. <!--and beyond. -->
         </p>
         
         <div class="flex flex-wrap gap-4 pt-2 fade-element fade-delay-300">
