@@ -23,10 +23,10 @@
         </p>
         
         <div class="flex flex-wrap gap-4 pt-2 fade-element fade-delay-300">
-          <a href="services.html" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-blue hover:bg-logistics-blue/90 text-white focus:ring-logistics-blue/20 px-6 py-3 rounded-full">
+          <a href="/services" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-blue hover:bg-logistics-blue/90 text-white focus:ring-logistics-blue/20 px-6 py-3 rounded-full">
             Explore Services
           </a>
-          <a href="contact.html" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-white/10 backdrop-blur-sm border border-white text-white hover:bg-white/20 focus:ring-white/20 px-6 py-3 rounded-full">
+          <a href="/contact" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-white/10 backdrop-blur-sm border border-white text-white hover:bg-white/20 focus:ring-white/20 px-6 py-3 rounded-full">
             Get a Quote
           </a>
         </div>
@@ -106,7 +106,7 @@
           </div>
           
           <div class="fade-element fade-delay-700">
-            <a href="about.html" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-blue hover:bg-logistics-blue/90 text-white focus:ring-logistics-blue/20 px-6 py-3 rounded-full">
+            <a href="/about" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-blue hover:bg-logistics-blue/90 text-white focus:ring-logistics-blue/20 px-6 py-3 rounded-full">
               Learn More About Us
             </a>
           </div>
@@ -146,7 +146,7 @@
           <p class="text-gray-600 mb-6">
             Door-to-door delivery across the Philippines with our extensive fleet of trucks and vans.
           </p>
-          <a href="services.html" class="text-logistics-blue hover:text-logistics-blue/80 font-medium inline-flex items-center transition-all duration-300 group-hover:pl-2">
+          <a href="/services" class="text-logistics-blue hover:text-logistics-blue/80 font-medium inline-flex items-center transition-all duration-300 group-hover:pl-2">
             Learn more
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -167,7 +167,7 @@
           <p class="text-gray-600 mb-6">
             Reliable shipping services connecting all major ports in the Philippine archipelago.
           </p>
-          <a href="services.html" class="text-logistics-blue hover:text-logistics-blue/80 font-medium inline-flex items-center transition-all duration-300 group-hover:pl-2">
+          <a href="/services" class="text-logistics-blue hover:text-logistics-blue/80 font-medium inline-flex items-center transition-all duration-300 group-hover:pl-2">
             Learn more
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -188,7 +188,7 @@
           <p class="text-gray-600 mb-6">
             Fast and efficient air freight solutions for time-sensitive deliveries.
           </p>
-          <a href="services.html" class="text-logistics-blue hover:text-logistics-blue/80 font-medium inline-flex items-center transition-all duration-300 group-hover:pl-2">
+          <a href="/services" class="text-logistics-blue hover:text-logistics-blue/80 font-medium inline-flex items-center transition-all duration-300 group-hover:pl-2">
             Learn more
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -198,7 +198,7 @@
       </div>
       
       <div class="text-center mt-16 fade-element">
-        <a href="services.html" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-blue hover:bg-logistics-blue/90 text-white focus:ring-logistics-blue/20 px-7 py-3 rounded-full">
+        <a href="/services" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-blue hover:bg-logistics-blue/90 text-white focus:ring-logistics-blue/20 px-7 py-3 rounded-full">
           View All Services
         </a>
       </div>

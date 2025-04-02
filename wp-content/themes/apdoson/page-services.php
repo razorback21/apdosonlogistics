@@ -106,7 +106,7 @@
               </span>
             </div>
             <h2 class="text-3xl font-bold mb-6 text-logistics-dark fade-element fade-delay-100">
-              Advantages of Working With APDOSon Logistics
+              Advantages of Working With Apdoson Logistics
             </h2>
             <div class="space-y-4 fade-element fade-delay-200">
               <div class="flex gap-4 items-start">
@@ -169,7 +169,7 @@
           Contact us today to discuss how our services can benefit your business and streamline your logistics operations.
         </p>
         <div class="fade-element fade-delay-200">
-          <a href="contact.html" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-white hover:bg-white/90 text-logistics-blue focus:ring-white/20 text-sm px-7 py-3 rounded-full">
+          <a href="/contact" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-white hover:bg-white/90 text-logistics-blue focus:ring-white/20 text-sm px-7 py-3 rounded-full">
             Get in Touch
           </a>
         </div>

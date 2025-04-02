@@ -65,7 +65,7 @@
                 </div>
                 <div>
                   <h3 class="font-semibold text-logistics-dark">Email</h3>
-                  <p class="text-gray-600">contact@apdosonlogistics.com.ph</p>
+                  <p class="text-gray-600"><a href="mailto:contact@apdosonlogistics.com.ph" class="hover:text-logistics-blue">contact@apdosonlogistics.com.ph</a></p>
                 </div>
               </div>
             </div>
