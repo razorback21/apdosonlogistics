@@ -55,7 +55,7 @@ class ApdosonTheme {
             $body .= "Service: {$_POST['service']}\n\n";
             $body .= "Message: {$_POST['message']}\n\n";
            
-            mail('contact@donnygapulao.site', 'APDOSON: Customer Inquiry', $body);
+            mail('contact@apdosonlogistics.com.ph', 'APDOSON Website: Customer Inquiry', $body);
         }
         wp_send_json_success(['status'=>$status, 'message'=>$message]);
     }
