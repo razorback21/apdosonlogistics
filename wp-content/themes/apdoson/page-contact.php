@@ -110,6 +110,10 @@
           </div>
           
           <div class="fade-element fade-delay-300">
+            <div id="contact-form-thankyou" style=display:none class="text-center p-10 border border-logistics-blue bg-logistics-blue/10 rounded-md">
+              <h3 class="text-2xl font-bold mb-4 text-logistics-blue">Thank You!!!</h3>
+              <p class="text-logistics-blue">Thanks for reaching out. We wil get back to you ASAP.</p>
+            </div>
             <form id="contact-form" method="POST" class="glass-card rounded-2xl p-8">
               <div class="space-y-6">
                 <div>
