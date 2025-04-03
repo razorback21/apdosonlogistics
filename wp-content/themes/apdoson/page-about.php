@@ -12,7 +12,7 @@
         </div>
         <div class="fade-in fade-in-delay-1">
           <h1 class="text-4xl md:text-5xl font-bold text-logistics-dark mb-6">
-            Learn More About APDOSon Logistics
+            Learn More About Apdoson Logistics
           </h1>
         </div>
         <div class="fade-in fade-in-delay-2">
