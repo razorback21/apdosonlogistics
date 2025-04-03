@@ -5,17 +5,17 @@
   <section class="pt-32 pb-16 bg-logistics-light">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center">
-        <div class="fade-in">
+        <div class="fade-element">
           <span class="inline-block bg-logistics-blue/10 text-logistics-blue px-4 py-1 rounded-full text-sm font-medium mb-4">
             About Our Company
           </span>
         </div>
-        <div class="fade-in fade-in-delay-1">
+        <div class="fade-element fade-delay-100">
           <h1 class="text-4xl md:text-5xl font-bold text-logistics-dark mb-6">
             Learn More About Apdoson Logistics
           </h1>
         </div>
-        <div class="fade-in fade-in-delay-2">
+        <div class="fade-element fade-delay-150">
           <p class="text-lg text-gray-600">
             We provide comprehensive logistics solutions across the Philippines, backed by years of industry expertise and a commitment to excellence.
           </p>
@@ -28,7 +28,7 @@
   <section class="py-20 bg-white">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        <div class="fade-in">
+        <div class="fade-element fade-delay-200">
           <span class="inline-block bg-logistics-blue/10 text-logistics-blue px-4 py-1 rounded-full text-sm font-medium mb-4">
             Our Story
           </span>
@@ -45,11 +45,11 @@
             Today, APDOSon Logistics operates a modern fleet of over 150 vehicles, employs more than 300 dedicated professionals, and serves thousands of businesses across the Philippine archipelago.
           </p> -->
         </div>
-        <div class="fade-in fade-in-delay-2 order-first lg:order-last">
+        <div class="fade-element fade-delay-200 order-first lg:order-last">
           <div class="relative">
             <img 
               src="<?= get_template_directory_uri().'/images/';?>ourstory.png" 
-              alt="APDOSon Logistics History" 
+              alt="Apdoson Logistics History" 
               class="w-full h-auto rounded-2xl shadow-xl"
             />
             <div class="absolute -bottom-5 -right-5 -z-10 w-full h-full bg-logistics-blue/10 rounded-full blur-3xl"></div>
@@ -63,13 +63,13 @@
   <section class="py-20 bg-logistics-light">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div class="fade-in">
+        <div class="fade-element fade-delay-400">
           <h3 class="text-2xl font-bold text-logistics-dark mb-4">Our Mission</h3>
           <p class="text-gray-600">
             To provide reliable, efficient, and innovative logistics solutions that exceed customer expectations and contribute to the growth of the Philippine economy.
           </p>
         </div>
-        <div class="fade-in fade-in-delay-1">
+        <div class="fade-element ffade-delay-400">
           <h3 class="text-2xl font-bold text-logistics-dark mb-4">Our Vision</h3>
           <p class="text-gray-600">
             To be the leading logistics provider in the Philippines, recognized for our commitment to excellence, sustainability, and customer satisfaction.
@@ -84,7 +84,7 @@
   <section class="py-20 bg-white">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <div class="fade-in">
+        <div class="fade-element">
           <span class="inline-block bg-logistics-blue/10 text-logistics-blue px-4 py-1 rounded-full text-sm font-medium mb-4">
             Leadership
           </span>
