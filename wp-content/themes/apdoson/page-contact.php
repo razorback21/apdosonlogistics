@@ -110,13 +110,14 @@
           </div>
           
           <div class="fade-element fade-delay-300">
-            <form id=""contact-form class="glass-card rounded-2xl p-8">
+            <form id="contact-form" method="POST" class="glass-card rounded-2xl p-8">
               <div class="space-y-6">
                 <div>
                   <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     placeholder="Your Name"
                     class="w-full rounded-md border border-gray-300 px-4 py-2 text-base md:text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-logistics-blue focus-visible:ring-offset-2"
                   />
@@ -127,16 +128,18 @@
                   <input
                     type="email"
                     id="email"
+                    name="email"
                     placeholder="your.email@example.com"
                     class="w-full rounded-md border border-gray-300 px-4 py-2 text-base md:text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-logistics-blue focus-visible:ring-offset-2"
                   />
                 </div>
                 
                 <div>
-                  <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                  <label for="mobileno" class="block text-sm font-medium text-gray-700 mb-1">Mobile Number</label>
                   <input
                     type="tel"
-                    id="phone"
+                    id="mobileno"
+                    name="mobileno"
                     placeholder="+63 XXX XXX XXXX"
                     class="w-full rounded-md border border-gray-300 px-4 py-2 text-base md:text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-logistics-blue focus-visible:ring-offset-2"
                   />
@@ -146,6 +149,7 @@
                   <label for="service" class="block text-sm font-medium text-gray-700 mb-1">Service Interested In</label>
                   <select
                     id="service"
+                    name="service"
                     class="w-full rounded-md border border-gray-300 px-4 py-2 text-base md:text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-logistics-blue focus-visible:ring-offset-2"
                   >
                     <option value="">Select a Service</option>
@@ -154,7 +158,6 @@
                     <option value="Air Freight">Air Freight</option>
                     <option value="Hauling">Hauling</option>
                     <option value="Customs Brokerage">Customs Brokerage</option>
-                    <option value="Express Delivery">Express Delivery</option>
                     <option value="Other">Other</option>
                   </select>
                 </div>
@@ -163,6 +166,7 @@
                   <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
                   <textarea
                     id="message"
+                    name="message"
                     placeholder="How can we help you?"
                     rows="4"
                     class="w-full rounded-md border border-gray-300 px-4 py-2 text-base md:text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-logistics-blue focus-visible:ring-offset-2"
