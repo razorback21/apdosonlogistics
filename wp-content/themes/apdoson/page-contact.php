@@ -73,17 +73,17 @@
             <div class="mt-12 fade-element fade-delay-100">
               <h3 class="text-xl font-bold mb-6 text-logistics-dark">Office Hours</h3>
               <div class="space-y-2">
-                <div class="flex justify-between">
+                <div class="flex">
                   <span class="text-gray-600">Monday - Friday:</span>
-                  <span class="font-medium">8:00 AM - 6:00 PM</span>
+                  <span class="font-medium ml-5">8:00 AM - 6:00 PM</span>
                 </div>
-                <div class="flex justify-between">
+                <div class="flex">
                   <span class="text-gray-600">Saturday:</span>
-                  <span class="font-medium">9:00 AM - 2:00 PM</span>
+                  <span class="font-medium ml-5">8:00 AM - 6:00 PM</span>
                 </div>
-                <div class="flex justify-between">
+                <div class="flex">
                   <span class="text-gray-600">Sunday:</span>
-                  <span class="font-medium">Closed</span>
+                  <span class="font-medium ml-5">Closed</span>
                 </div>
               </div>
             </div>
