@@ -7,15 +7,15 @@ Author: Donny Gapulao
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
-    }
+}
     
-    /* Custom base styles */
-    html {
+/* Custom base styles */
+html {
     scroll-behavior: smooth;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    }
-    
-    body {
+}
+
+body {
     font-family: 'SF Pro Display', system-ui, sans-serif;
     background-color: hsl(210, 33%, 99%);
     color: hsl(222, 47%, 11%);
@@ -23,55 +23,62 @@ Author: Donny Gapulao
     width: 100%;
     max-width: 100vw;
     position: relative;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'SF Pro Display', system-ui, sans-serif;
     letter-spacing: -0.025em;
-    }
-    
-    .blur-backdrop {
+}
+
+.blur-backdrop {
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    
-    .glass-card {
+}
+
+.glass-card {
     background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    }
-    
-    /* Animations based on intersection observer */
-    .fade-element {
+}
+
+/* Animations based on intersection observer */
+.fade-element {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.7s ease-out, transform 0.7s ease-out;
-    }
-    
-    .fade-element.visible {
+}
+
+.fade-element.visible {
     opacity: 1;
     transform: translateY(0);
-    }
-    
-    .fade-delay-100 { transition-delay: 100ms; }
-    .fade-delay-200 { transition-delay: 200ms; }
-    .fade-delay-300 { transition-delay: 300ms; }
-    .fade-delay-400 { transition-delay: 400ms; }
-    .fade-delay-500 { transition-delay: 500ms; }
-    .fade-delay-600 { transition-delay: 600ms; }
-    .fade-delay-800 { transition-delay: 800ms; }
-    
-    /* Fix for mobile viewport issues */
-    .container {
+}
+
+.fade-delay-100 { transition-delay: 100ms; }
+.fade-delay-200 { transition-delay: 200ms; }
+.fade-delay-300 { transition-delay: 300ms; }
+.fade-delay-400 { transition-delay: 400ms; }
+.fade-delay-500 { transition-delay: 500ms; }
+.fade-delay-600 { transition-delay: 600ms; }
+.fade-delay-800 { transition-delay: 800ms; }
+
+/* Fix for mobile viewport issues */
+.container {
     width: 100%;
     max-width: 100%;
     overflow: hidden;
-    }
-    
-    /* Fix for sections that might cause overflow */
-    section {
+}
+
+/* Fix for sections that might cause overflow */
+section {
     width: 100%;
     overflow: hidden;
-    }
+}
+
+label.error {
+    margin-top: 5px;
+    display: block;
+    font-size: 0.7rem;
+    color: red;
+}
