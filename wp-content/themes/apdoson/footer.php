@@ -168,7 +168,7 @@
         <div class="flex space-x-6">
           <a href="#" class="text-gray-500 hover:text-logistics-blue text-sm transition-colors">Privacy Policy</a>
           <a href="#" class="text-gray-500 hover:text-logistics-blue text-sm transition-colors">Terms of Service</a>
-          <a href="#" class="text-gray-500 hover:text-logistics-blue text-sm transition-colors">Cookie Policy</a>
+          <!-- <a href="#" class="text-gray-500 hover:text-logistics-blue text-sm transition-colors">Cookie Policy</a> -->
         </div>
       </div>
     </div>

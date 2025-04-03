@@ -73,7 +73,7 @@
           </h2>
           <p class="text-lg text-gray-600 mb-8 fade-element fade-delay-200">
             Apdoson Logistics has been providing exceptional transportation and logistics 
-            services across the Philippines for over a decade. We combine industry expertise 
+            services across the Philippines for five years. We combine industry expertise 
             with innovative technology to deliver reliable, efficient, and cost-effective 
             logistics solutions tailored to your specific needs.
           </p>
