@@ -30,8 +30,10 @@
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-semibold text-logistics-dark">Address</h3>
-                  <p class="text-gray-600">7306 Escudo Lane St Villanueva Village Brgy San Dionisio Sucat Parañaque City, Philippines.</p>
+                  <h3 class="font-semibold text-logistics-dark">Main Office</h3>
+                  <p class="text-gray-600 mb-2">7306 Escudo Lane St Villanueva Village Brgy San Dionisio Sucat Parañaque City, Philippines.</p>
+                  <h3 class="font-semibold text-logistics-dark">Warehouse</h3>
+                  <p class="text-gray-600">2111 Liwanag F. Bautista Street Ugong, Valenzuela City, Metro Manila Philippines.</p>
                 </div>
               </div>
               
