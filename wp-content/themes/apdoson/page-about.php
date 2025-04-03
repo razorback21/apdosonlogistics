@@ -80,6 +80,7 @@
   </section>
 
   <!-- Leadership Team Section -->
+  <?php /*
   <section class="py-20 bg-white">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
@@ -162,6 +163,7 @@
         </div>
 
         <!-- Team Member 3 -->
+        
         <div class="fade-in fade-in-delay-5">
           <div class="bg-logistics-light rounded-2xl p-6 text-center">
             <img 
@@ -190,6 +192,7 @@
             </div>
           </div>
         </div>
+         */ ?>
       </div>
     </div>
   </section>
