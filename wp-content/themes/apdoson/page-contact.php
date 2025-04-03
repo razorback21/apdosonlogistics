@@ -110,7 +110,7 @@
           </div>
           
           <div class="fade-element fade-delay-300">
-            <form class="glass-card rounded-2xl p-8">
+            <form id=""contact-form class="glass-card rounded-2xl p-8">
               <div class="space-y-6">
                 <div>
                   <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
@@ -149,13 +149,13 @@
                     class="w-full rounded-md border border-gray-300 px-4 py-2 text-base md:text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-logistics-blue focus-visible:ring-offset-2"
                   >
                     <option value="">Select a Service</option>
-                    <option value="land">Land Transportation</option>
-                    <option value="sea">Sea Freight</option>
-                    <option value="air">Air Freight</option>
-                    <option value="warehousing">Hauling</option>
-                    <option value="customs">Customs Brokerage</option>
-                    <option value="express">Express Delivery</option>
-                    <option value="other">Other</option>
+                    <option value="Land Transportation">Land Transportation</option>
+                    <option value="Sea Freight">Sea Freight</option>
+                    <option value="Air Freight">Air Freight</option>
+                    <option value="Hauling">Hauling</option>
+                    <option value="Customs Brokerage">Customs Brokerage</option>
+                    <option value="Express Delivery">Express Delivery</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
                 
