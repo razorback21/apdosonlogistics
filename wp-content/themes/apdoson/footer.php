@@ -18,7 +18,7 @@
             </p>
             <div class="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.facebook.com/ApdosonPH/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"

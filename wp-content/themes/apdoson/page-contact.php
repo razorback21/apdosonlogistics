@@ -151,8 +151,8 @@
                     <option value="">Select a Service</option>
                     <option value="land">Land Transportation</option>
                     <option value="sea">Sea Freight</option>
-                    <option value="air">Air Cargo</option>
-                    <option value="warehousing">Warehousing</option>
+                    <option value="air">Air Freight</option>
+                    <option value="warehousing">Hauling</option>
                     <option value="customs">Customs Brokerage</option>
                     <option value="express">Express Delivery</option>
                     <option value="other">Other</option>
