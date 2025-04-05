@@ -38,10 +38,18 @@
         <!-- <a href="index.html" class="text-sm font-medium text-logistics-blue">Home</a> -->
         <?php 
             $items = wp_get_nav_menu_items('primary');
+            //$uri = $_SERVER['REQUEST_URI'];
+            $parts = parse_url($_SERVER['REQUEST_URI']);
+            $currentPage = end($parts);  
+            // Check if there are any menu items
             if ($items): ?>
-                <?php foreach ($items as $item): ?>
-                    <a href="<?php echo $item->url;?>" class="text-sm font-medium hover:text-logistics-blue transition-colors">
-                        <?php echo strtoupper($item->title); ?>
+                <?php foreach ($items as $item): 
+                  $parts = parse_url($item->url);
+                  $activePage = end($parts)
+                  ?>
+                   
+                    <a href="<?= $item->url;?>" class="text-sm font-medium hover:text-logistics-blue transition-colors <?= $currentPage == $activePage ? "text-logistics-blue" :"" ?>">
+                        <?= strtoupper($item->title); ?>
                     </a>
                 <?php endforeach; ?>
         <?php endif; ?>
