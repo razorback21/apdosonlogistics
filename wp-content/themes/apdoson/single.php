@@ -12,6 +12,9 @@
         <h1 class="text-4xl md:text-5xl font-bold text-logistics-dark mb-6">
           <?php the_title(); ?>
         </h1>
+        <p class="text-lg text-gray-600 fade-element fade-delay-200">
+          <?= get_post_meta( get_the_ID(), 'short_description', true );  ?>   
+        </p>
       </div>
     </div>
   </div>
