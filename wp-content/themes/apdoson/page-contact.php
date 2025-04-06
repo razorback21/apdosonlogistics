@@ -31,9 +31,9 @@
                 </div>
                 <div>
                   <h3 class="font-semibold text-logistics-dark">Main Office</h3>
-                  <p class="text-gray-600 mb-2">7306 Escudo Lane St Villanueva Village Brgy San Dionisio Sucat Parañaque City, Philippines.</p>
+                  <p class="text-gray-600 mb-2"><?= get_option('office_address') ?></p>
                   <h3 class="font-semibold text-logistics-dark">Warehouse</h3>
-                  <p class="text-gray-600">2111 Liwanag F. Bautista Street Ugong, Valenzuela City, Metro Manila Philippines.</p>
+                  <p class="text-gray-600"><?= get_option('warehouse_address') ?></p>
                 </div>
               </div>
               
@@ -46,22 +46,20 @@
                 <div>
                   <div class="mb-2">
                     <h3 class="font-semibold text-logistics-dark">Phone</h3>
-                    <p class="text-gray-600">(02) 8525-5779</p>
+                    <p class="text-gray-600"><?= get_option('phone') ?></p>
                   </div>
                   <div  class="mb-2">
                     <h3 class="font-semibold text-logistics-dark">Mobile No.</h3>
                     <p class="text-gray-600">
-                      SMART: +63 963-101-4747 | +63 920-903-5779 <br/>
-                      GLOBE: +63 956-423-1844 | +63 950-696-1845 <br/>
-                      WHATSAPP: +956-423-1844
+                      SMART: <?= implode(' | ', explode(',',get_option('smart'))) ?> <br/>
+                      GLOBE: <?= implode(' | ', explode(',',get_option('globe'))) ?> <br/>
+                      WHATSAPP: get_option('whatsapp') ?> <br/>
                     </p>
                   </div>
                   <div>
                     <h3 class="font-semibold text-logistics-dark">Viber</h3>
                     <p class="text-gray-600">
-                    (0956) 423 1844 </br>
-                    (0963) 1014747 <br/>
-                    (0928) 469 0277
+                    <?= implode('<br/>', explode(',',get_option('viber'))) ?>
                     </p>
                   </div>
                 </div>
@@ -75,7 +73,7 @@
                 </div>
                 <div>
                   <h3 class="font-semibold text-logistics-dark">Email</h3>
-                  <p class="text-gray-600"><a href="mailto:contact@apdosonlogistics.com.ph" class="hover:text-logistics-blue">contact@apdosonlogistics.com.ph</a></p>
+                  <p class="text-gray-600"><a href="mailto:<?= get_option('email'); ?>" class="hover:text-logistics-blue"><?= get_option('email'); ?></a></p>
                 </div>
               </div>
             </div>
@@ -85,11 +83,11 @@
               <div class="space-y-2">
                 <div class="flex">
                   <span class="text-gray-600">Monday - Friday:</span>
-                  <span class="font-medium ml-5">8:00 AM - 6:00 PM</span>
+                  <span class="font-medium ml-5"><?= get_option('monday_friday'); ?></span>
                 </div>
                 <div class="flex">
                   <span class="text-gray-600">Saturday:</span>
-                  <span class="font-medium ml-5">8:00 AM - 6:00 PM</span>
+                  <span class="font-medium ml-5"><?= get_option('saturday'); ?></span>
                 </div>
                 <div class="flex">
                   <span class="text-gray-600">Sunday:</span>
