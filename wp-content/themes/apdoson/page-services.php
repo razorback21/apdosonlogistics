@@ -20,8 +20,33 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <?php 
+          $args = array(
+            'post_type' => 'post',
+            'category_name' => 'services',
+            'posts_per_page' => 6,
+          );
+
+          $services = new WP_Query($args);
+
+          if($services->have_posts()) {
+            while ($services->have_posts()) {
+              $services->the_post(); ?>
+              
+              <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-100">
+                <h3 class="text-xl font-semibold text-logistics-dark mb-2"><?php the_title(); ?></h3>
+                <p class="text-gray-600"><?= get_post_meta(get_the_ID(), 'short_description', true); ?></p>
+                <hr class="my-4 bg-gray-200">
+                <a href="<?php the_permalink(); ?>" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
+                  Learn More
+                </a>
+              </div>
+              <?php } 
+            }?>          
+
           <!-- Service Card 1 -->
-          <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element">
+          <!-- <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element">
             <h3 class="text-xl font-semibold text-logistics-dark mb-2">Land Transportation</h3>
             <p class="text-gray-600">
               Efficient and reliable land transportation services across the country.
@@ -30,10 +55,10 @@
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
               Learn More
             </button>
-          </div>
+          </div> -->
 
           <!-- Service Card 2 -->
-          <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-100">
+          <!-- <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-100">
             <h3 class="text-xl font-semibold text-logistics-dark mb-2">Sea Freight</h3>
             <p class="text-gray-600">
               Cost-effective sea freight solutions for domestic shipping.
@@ -42,10 +67,10 @@
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
               Learn More
             </button>
-          </div>
+          </div> -->
 
           <!-- Service Card 3 -->
-          <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-200">
+          <!-- <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-200">
             <h3 class="text-xl font-semibold text-logistics-dark mb-2">Air Freight</h3>
             <p class="text-gray-600">
               Fast and secure air cargo services for time-sensitive shipments.
@@ -54,10 +79,10 @@
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
               Learn More
             </button>
-          </div>
+          </div> -->
 
           <!-- Service Card 4 -->
-          <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element">
+          <!-- <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element">
             <h3 class="text-xl font-semibold text-logistics-dark mb-2">Hauling</h3>
             <p class="text-gray-600">
               Reliable solution for transporting heavy goods with speed and efficiency.
@@ -66,10 +91,10 @@
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
               Learn More
             </button>
-          </div>
+          </div> -->
 
           <!-- Service Card 5 -->
-          <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-100">
+          <!-- <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-100">
             <h3 class="text-xl font-semibold text-logistics-dark mb-2">Customs Brokerage</h3>
             <p class="text-gray-600">
               Expert customs brokerage services to ensure smooth clearance.
@@ -78,19 +103,9 @@
             <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
               Learn More
             </button>
-          </div>
-
-          <!-- Service Card 6 -->
-          <!-- <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-transform duration-300 fade-element fade-delay-200">
-            <h3 class="text-xl font-semibold text-logistics-dark mb-2">Express Delivery</h3>
-            <p class="text-gray-600">
-              Reliable express delivery services for urgent shipments.
-            </p>
-            <hr class="my-4 bg-gray-200">
-            <button class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 text-sm px-5 py-2.5 rounded-full">
-              Learn More
-            </button>
           </div> -->
+
+
         </div>
       </div>
     </section>
