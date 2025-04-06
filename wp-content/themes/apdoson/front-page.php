@@ -138,7 +138,6 @@
           'posts_per_page' => 3,
           'category_name' => 'services', // Ensure 'services' is the correct category slug
           'orderby' => 'date',
-          'order' => 'ASC',
         );
 
         $query = new WP_Query($args);
