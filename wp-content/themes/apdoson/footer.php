@@ -135,7 +135,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span class="text-gray-600">7306 Escudo Lane St Villanueva Village, Brgy San Dionisio Sucat Parañaque City, Philippines</span>
+                <span class="text-gray-600"><?= get_option('office_address') ?></span>
               </li>
               <li class="flex items-start">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-logistics-blue mt-0.5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -147,13 +147,13 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-logistics-blue mt-0.5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:contact@apdosonlogistics.com.ph" class="text-gray-600 mb-2 hover:text-logistics-blue">contact@apdosonlogistics.com.ph</span>
+                <a href="mailto:contact@apdosonlogistics.com.ph" class="text-gray-600 mb-2 hover:text-logistics-blue"><?= get_option('email') ?></span>
               </li>
               <li class="flex items-start">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-logistics-blue mt-0.5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span class="text-gray-600">Mon - Fri: 8:00 AM - 5:00 PM<br>Sat: 8:00 AM - 5:00 PM</span>
+                <span class="text-gray-600">Mon - Fri: <?= get_option('monday_friday') ?><br>Sat: <?= get_option('saturday') ?></span>
               </li>
             </ul>
           </div>

@@ -230,7 +230,7 @@
           </div>
           <h3 class="text-xl font-bold mb-2 text-logistics-dark">Call Us</h3>
           <p class="text-gray-600 mb-4">Speak directly with our logistics experts</p>
-          <a href="tel:+6328123456" class="text-lg font-medium text-logistics-blue">(02) 8525-5779</a>
+          <a href="tel:+6328123456" class="text-lg font-medium text-logistics-blue"><?= get_option('phone'); ?></a>
         </div>
         
         <!-- Email Us -->
@@ -242,7 +242,7 @@
           </div>
           <h3 class="text-xl font-bold mb-2 text-logistics-dark">Email Us</h3>
           <p class="text-gray-600 mb-4">Send us your inquiries and requirements</p>
-          <a href="mailto:info@Apdoson-logistics.com" class="text-lg font-medium text-logistics-blue">contact@apdosonlogistics.com.ph</a>
+          <a href="mailto:info@Apdoson-logistics.com" class="text-lg font-medium text-logistics-blue"><?= get_option('email'); ?></a>
         </div>
         
         <!-- Visit Us -->
@@ -255,7 +255,7 @@
           </div>
           <h3 class="text-xl font-bold mb-2 text-logistics-dark">Visit Us</h3>
           <p class="text-gray-600 mb-4">Our headquarters in Parañaque City</p>
-          <span class="text-lg font-medium text-logistics-blue">7306 Escudo Lane St Villanueva Village Brgy San Dionisio Sucat Parañaque City</span>
+          <span class="text-lg font-medium text-logistics-blue"><?= get_option('office_address'); ?></span>
         </div>
       </div>
       
