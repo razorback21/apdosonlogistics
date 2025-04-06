@@ -19,7 +19,7 @@
         </h1>
         
         <p class="text-lg sm:text-xl text-white/90 leading-relaxed fade-element fade-delay-200">
-          <?= get_post_meta(get_the_ID(), '_apdoson_hero_title', true); ?>. <!--and beyond. -->
+          <?= get_post_meta(get_the_ID(), '_apdoson_hero_subdescription', true); ?>. <!--and beyond. -->
         </p>
         
         <div class="flex flex-wrap gap-4 pt-2 fade-element fade-delay-300">
