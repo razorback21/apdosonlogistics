@@ -5,7 +5,7 @@
   <section class="relative h-screen">
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent z-10"></div>
-      <div class="w-full h-full bg-cover bg-center" style="background-image: url('<?= get_template_directory_uri().'/images/';?>truck.png'); transform: scale(1.1);"></div>
+      <div class="w-full h-full bg-cover bg-center" style="background-image: url('<?= get_post_meta(get_the_ID, 'apdoson_hero_apdoson_hero_image_title', true); ?>'); transform: scale(1.1);"></div>
     </div>
     
     <div class="relative container h-full mx-auto px-4 z-20 flex flex-col justify-center items-start">
@@ -15,11 +15,11 @@
         </span>
         
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight fade-element fade-delay-100">
-          Delivering Excellence Across The Philippines
+          <?= get_post_meta(get_the_ID, 'apdoson_hero_title', true); ?>
         </h1>
         
         <p class="text-lg sm:text-xl text-white/90 leading-relaxed fade-element fade-delay-200">
-          We provide seamless logistics solutions that help businesses move goods efficiently throughout the Philippines. <!--and beyond. -->
+          <?= get_post_meta(get_the_ID, 'apdoson_hero_subdescription', true); ?>. <!--and beyond. -->
         </p>
         
         <div class="flex flex-wrap gap-4 pt-2 fade-element fade-delay-300">
