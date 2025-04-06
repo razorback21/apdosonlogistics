@@ -21,10 +21,10 @@
                 href="https://www.facebook.com/ApdosonPH/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
+                class="flex justify-center items-center bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
                 aria-label="Facebook"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                 </svg>
               </a>
@@ -32,7 +32,7 @@
                 href="https://www.youtube.com/channel/UCaKnK-p-72ZXgnwCY9fJdrg/featured" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
+                class="flex justify-center items-center bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
                 aria-label="Youtube"
               >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
@@ -41,10 +41,10 @@
                 href="https://www.instagram.com/apdosonphilippines/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
+                class="flex justify-center items-center bg-logistics-blue/10 p-2 rounded-full text-logistics-blue hover:bg-logistics-blue hover:text-white transition-colors"
                 aria-label="Instagram"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a6 6 0 016 6v8a6 6 0 01-6 6H8a6 6 0 01-6-6V8a6 6 0 016-6h4m5 9a5 5 0 11-5-5 5 5 0 015 5z" />
                 </svg>
               </a>
