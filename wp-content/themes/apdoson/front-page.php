@@ -132,8 +132,49 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <?php 
+        $args = array(
+          'post_type' => 'post',
+          'posts_per_page' => 3,
+          'category_name' => 'services', // Ensure 'services' is the correct category slug
+        );
+
+        $query = new WP_Query($args);
+
+        if (!$query->have_posts()) {
+          echo '<p>No services found. Please check the category slug or add posts to the "services" category.</p>';
+        }
+
+        if ($query->have_posts()) {
+          
+          while ($query->have_posts()) {
+            $query->the_post(); ?>
+            
+            <div class="glass-card rounded-2xl p-8 hover:shadow-md transition-all duration-300 group fade-element fade-delay-200">
+              <div class="mb-6 p-4 bg-logistics-blue/10 inline-block rounded-xl text-logistics-blue group-hover:bg-logistics-blue group-hover:text-white transition-all duration-300">
+                <?= get_post_meta(get_the_ID(), 'icon', true); ?>
+              </div>
+              <h3 class="text-xl font-bold mb-3 text-logistics-dark group-hover:text-logistics-blue transition-colors duration-300">
+                <?php the_title(); ?>
+              </h3>
+              <p class="text-gray-600 mb-6">
+                <?= get_post_meta( get_the_ID(), 'short_description', true ); ?>
+              </p>
+              <a href="<?php the_permalink(); ?>" class="text-logistics-blue hover:text-logistics-blue/80 font-medium inline-flex items-center transition-all duration-300 group-hover:pl-2">
+                Learn more
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+        
+          <?php } // End of the loop
+          wp_reset_postdata();
+         } ?>
+          
+         
         <!-- Land Transportation -->
-        <div class="glass-card rounded-2xl p-8 hover:shadow-md transition-all duration-300 group fade-element">
+        <!-- <div class="glass-card rounded-2xl p-8 hover:shadow-md transition-all duration-300 group fade-element">
           <div class="mb-6 p-4 bg-logistics-blue/10 inline-block rounded-xl text-logistics-blue group-hover:bg-logistics-blue group-hover:text-white transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -152,10 +193,10 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
           </a>
-        </div>
+        </div> -->
         
         <!-- Sea Freight -->
-        <div class="glass-card rounded-2xl p-8 hover:shadow-md transition-all duration-300 group fade-element fade-delay-100">
+        <!-- <div class="glass-card rounded-2xl p-8 hover:shadow-md transition-all duration-300 group fade-element fade-delay-100">
           <div class="mb-6 p-4 bg-logistics-blue/10 inline-block rounded-xl text-logistics-blue group-hover:bg-logistics-blue group-hover:text-white transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72l1.189-1.19A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72M6.75 18h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .414.336.75.75.75z" />
@@ -173,10 +214,10 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
           </a>
-        </div>
+        </div> -->
         
         <!-- Air Cargo -->
-        <div class="glass-card rounded-2xl p-8 hover:shadow-md transition-all duration-300 group fade-element fade-delay-200">
+        <!-- <div class="glass-card rounded-2xl p-8 hover:shadow-md transition-all duration-300 group fade-element fade-delay-200">
           <div class="mb-6 p-4 bg-logistics-blue/10 inline-block rounded-xl text-logistics-blue group-hover:bg-logistics-blue group-hover:text-white transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
@@ -194,7 +235,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
           </a>
-        </div>
+        </div> -->
       </div>
       
       <div class="text-center mt-16 fade-element">
