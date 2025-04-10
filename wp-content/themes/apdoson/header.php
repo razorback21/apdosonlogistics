@@ -24,6 +24,20 @@
         }
         }
   </script>
+    <?php
+      $description = '';
+      if (is_singular() && has_excerpt()) {
+          // Use the post/page excerpt if available
+          $description = get_the_excerpt();
+      } elseif (is_home() || is_front_page()) {
+          // Use the site tagline on the homepage
+          $description = get_bloginfo('description');
+      } else {
+          // Fallback description
+          $description = get_bloginfo('description');
+      }
+      ?>
+      <meta name="description" content="<?php echo esc_attr( wp_strip_all_tags( $description ) ); ?>"> 
     <?php wp_head(); ?>
 </head>
 <body <?php body_class('min-h-screen flex flex-col antialiased'); ?>>
