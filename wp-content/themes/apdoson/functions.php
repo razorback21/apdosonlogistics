@@ -17,6 +17,11 @@ class ApdosonTheme {
         add_action('wp_enqueue_scripts', [$this, 'apdoson_enqueue_scripts']);
         add_action('wp_ajax_contact_form', [$this, 'contact_form_handler']);
         add_action('wp_ajax_nopriv_contact_form', [$this, 'contact_form_handler']);
+        
+        // Add theme support for title tag
+        add_action('after_setup_theme', function() {
+            add_theme_support('title-tag');
+        });
     }
 
     public function apdoson_enqueue_scripts() {

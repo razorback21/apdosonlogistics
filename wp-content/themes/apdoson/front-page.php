@@ -304,7 +304,7 @@
       </div>
       
       <div class="text-center mt-16 fade-element">
-        <a href="contact.html" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 px-7 py-3 rounded-full">
+        <a href="/contact" class="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-logistics-red hover:bg-logistics-red/90 text-white focus:ring-logistics-red/20 px-7 py-3 rounded-full">
           Contact Us
         </a>
       </div>
