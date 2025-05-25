@@ -44,8 +44,9 @@
     <?php wp_body_open(); ?>
     <header class="fixed top-0 z-50 w-full bg-white shadow-md">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="/" class="flex items-center gap-2">
-        <img src="<?= get_template_directory_uri().'/images/';?>logo.png" alt="Apdoson Logistics Logo" class="h-12">
+      <a href="/" class="text-center">
+        <img src="<?= get_template_directory_uri().'/images/';?>logo.png" alt="Apdoson Logistics Logo" class="h-12"><br/>
+        <span class="text-logistics-blue block font-bold ml-[15px] mt-[-20px] tracking-[3px] tracking-[6px] text-[12px]">LOGISTICS SERVICES</span>
       </a>
       
       <nav class="hidden md:flex items-center gap-8">
