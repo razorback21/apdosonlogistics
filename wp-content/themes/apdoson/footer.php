@@ -6,12 +6,13 @@
         <!-- Company Info -->
         <div>
           <div class="space-y-6">
-            <a href="/" class="inline-block">
+            <a href="/" class="inline-block text-center">
               <img 
                 src="<?= get_template_directory_uri().'/images/';?>logo.png" 
                 alt="Apdoson Logistics Logo" 
                 class="h-12" 
-              />
+              /><br/>
+              <span class="text-logistics-blue block font-bold ml-[15px] mt-[-20px] tracking-[3px] tracking-[6px] text-[12px]">LOGISTICS SERVICES</span>
             </a>
             <p class="text-gray-600">
               Your Logistics Partner in the Frontline, delivering reliable and efficient solutions for businesses of all sizes.
