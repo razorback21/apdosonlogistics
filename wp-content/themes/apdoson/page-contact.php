@@ -82,17 +82,18 @@
               <h3 class="text-xl font-bold mb-6 text-logistics-dark">Office Hours</h3>
               <div class="space-y-2">
                 <div class="flex">
-                  <span class="text-gray-600">Monday - Friday:</span>
-                  <span class="font-medium ml-5"><?= get_option('monday_friday'); ?></span>
+                  <span class="text-gray-600">Monday - Sunday:</span>
+                  <span class="font-medium ml-5">Open 24 hours</span>
+                  <!-- <span class="font-medium ml-5"><?= get_option('monday_friday'); ?></span> -->
                 </div>
-                <div class="flex">
+                <!-- <div class="flex">
                   <span class="text-gray-600">Saturday:</span>
                   <span class="font-medium ml-5"><?= get_option('saturday'); ?></span>
                 </div>
                 <div class="flex">
                   <span class="text-gray-600">Sunday:</span>
                   <span class="font-medium ml-5">Closed</span>
-                </div>
+                </div> -->
               </div>
             </div>
             
