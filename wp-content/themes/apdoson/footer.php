@@ -14,7 +14,7 @@
               />
             </a>
             <p class="text-gray-600">
-              Your trusted logistics partner in the Philippines, delivering reliable and efficient solutions for businesses of all sizes.
+              Your Logistics Partner in the Frontline, delivering reliable and efficient solutions for businesses of all sizes.
             </p>
             <div class="flex space-x-4">
               <a 
