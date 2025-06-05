@@ -46,7 +46,7 @@
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <a href="/" class="text-center">
         <img src="<?= get_template_directory_uri().'/images/';?>logo.png" alt="Apdoson Logistics Logo" class="h-12"><br/>
-        <span class="text-logistics-blue block font-bold ml-[15px] mt-[-20px] tracking-[3px] tracking-[6px] text-[12px]">LOGISTICS SERVICES</span>
+        <span class="text-logistics-red block font-bold ml-[15px] mt-[-20px] tracking-[3px] tracking-[6px] text-[12px]">LOGISTICS SERVICES</span>
       </a>
       
       <nav class="hidden md:flex items-center gap-8">
