@@ -124,7 +124,7 @@
         </h2>
         <p class="text-lg text-gray-600 fade-element fade-delay-200">
           We offer a wide range of logistics services tailored to meet your business needs, 
-          ensuring your goods move efficiently across the Philippines.
+          ensuring your goods move efficiently globally and across the Philippines.
         </p>
       </div>
 
