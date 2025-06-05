@@ -72,10 +72,7 @@
             Your Trusted Logistics Partner in the Philippines
           </h2>
           <p class="text-lg text-gray-600 mb-8 fade-element fade-delay-200">
-            Apdoson Logistics has been providing exceptional transportation and logistics 
-            services across the Philippines for four years. We combine industry expertise 
-            with innovative technology to deliver reliable, efficient, and cost-effective 
-            logistics solutions tailored to your specific needs.
+            Apdoson Logistics has been providing exceptional transportation and logistics services across the Philippines and globally for four years. We combine industry expertise with innovative technology to deliver reliable, efficient, and cost-effective logistics solutions tailored to your specific needs.
           </p>
           
           <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4 mb-10">
@@ -89,7 +86,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-logistics-blue flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span class="text-gray-700">Nationwide coverage across the Philippines</span>
+              <span class="text-gray-700">Global and Nationwide coverage across the Philippines</span>
             </div>
             <div class="flex items-start space-x-3 fade-element fade-delay-500">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-logistics-blue flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
