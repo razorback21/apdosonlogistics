@@ -53,7 +53,7 @@
                     <p class="text-gray-600">
                       SMART: <?= implode(' | ', explode(',',get_option('smart'))) ?> <br/>
                       GLOBE: <?= implode(' | ', explode(',',get_option('globe'))) ?> <br/>
-                      WHATSAPP: get_option('whatsapp') ?> <br/>
+                      WHATSAPP: <?= get_option('whatsapp') ?> <br/>
                     </p>
                   </div>
                   <div>
